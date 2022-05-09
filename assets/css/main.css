@@ -3,3 +3,85 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+.root{
+	width: 100vw;
+	height: 100vh;
+	background-image: url('../img/wave.svg');
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: right;
+	background-color: #fafafa;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+.top-content{
+	width: 100%;
+	height: 55px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 3px 6px 5px 4px rgba(0,0,0,0.2);
+	background-color: #fff;
+}
+.logo{
+	height: 100%;
+	margin-left: 15px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	justify-content: center;
+	/* background: #fed; */
+}
+.logo img{
+	height: 100%;
+}
+.name-logo{
+	font-size: 2.5rem;
+	margin: 0 12px;
+}
+.menu{
+	/* background: #fda; */
+	height: 100%;
+	width: 100%;
+	min-width: 300px;
+	max-width: 600px;
+	display: flex;
+	justify-content: flex-end; 
+}
+.menu ul{
+	height: 100%;
+	display: flex;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+.item-menu{
+	width: 75px;
+	height: 100%;
+	margin: 0 8px;
+	cursor: pointer;
+	font-size: 14pt;
+	font-weight: 500;
+}
+.item-menu a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	
+}
+.item-menu a:hover{
+	border-bottom: 4px solid #000; 
+}
+.user_logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.user_logo img{
+	margin: 0 5px 0 0 ;
+}
