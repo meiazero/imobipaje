@@ -1,27 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="assets/css/main.css">
-    <link rel="shortcut icon" href="">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ImobiPajé</title>
+    <link rel="shortcut icon" href="assets/img/old-logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>ImobiPajé</title>
 </head>
-<body>
-    <div class="root">
-        <div class="main">
-            <div class="top-menu">
-                <a href=""></a>
-                <nav class="center-content" ></nav>
-                <input type="checkbox" id="user" >
-                <label for="user"><img src="assets/img/bx-user.svg" alt="""></label>
+
+<body class="bg-dark text-white">
+    <div class="root m-auto ">
+        <div class="top-menu d-flex ">
+            <!-- Logo Frame -->
+            <div class="logo-frame d-flex">
+                <a href="#" class="logo d-flex text-white">
+                    <i class='bx bx-home-smile'></i>
+                    <h1 class="logo-text">ImobiPajé</h1>
+                </a>
             </div>
-            <div class="content" >
-            <br><br><br><br>
-             
+            <!-- Menu Frame -->
+            <div class="menu d-flex">
+                <div class="menu-frame d-flex">
+                    <div class="buy-house-option fs-2">
+                        <input type="radio" class="hidden" id="buy-house" name="option-filter" value="buy-house" checked>
+                        <label for="buy-house">Comprar</label>
+                    </div>
+                    <div class="to-hide-option fs-2">
+                        <input type="radio" class="hidden" id="to-hide" name="option-filter" value="to-hide">
+                        <label for="to-hide">Alugar</label>
+                    </div>
+                </div>
+                <!-- Frame de pesquisa -->
+                <div class="search d-flex">
+                    <div class="option-search d-flex"> 
+                        <input type="radio" class="hidden" name="item-search" id="locale">
+                        <label for="locale" class="d-flex">
+                            <h1 class="option-title fs-5 text-dark">Localização</h1>
+                            <p class="option-subtitle text-dark">CEP, Cidade, Estado...</p>
+                        </label>
+                    </div>
+                    <div class="option-search d-flex">
+                        <input type="radio" class="hidden" name="item-search" id="room">
+                        <label for="room" class="d-flex">
+                            <h1 class="option-title fs-5 text-dark">Quantidade de quartos</h1>
+                            <p class="option-subtitle text-dark">1, 2, 3 quartos</p>
+                        </label>
+                    </div>
+                    <div class="option-search d-flex">
+                        <input type="radio" class="hidden" name="item-search" id="price">
+                        <label for="price" class="d-flex">
+                            <h1 class="option-title fs-5 text-dark">Faixa de Preço</h1>
+                            <p class="option-subtitle text-dark">--------------</p>
+                        </label>
+                    </div>
+                    <div class="search-btn d-flex">
+                        <button type="submit" class="btn btn-info">
+                            <img src="assets/img/bx-search.svg" alt="search buttom">
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- User frame -->
+            <div class="user-box d-flex ">
+                <div class="user-toggle d-flex bg-white">
+                    <div class="user">
+                        <input type="checkbox" class="hidden" name="user" id="user-input">
+                        <label for="user-input">
+                            <i class="bx bx-user"></i>
+                            <!-- posterior criação de box para login e cadastro de usuario, assim com visualização de perfil. -->
+                        </label>
+                    </div>
+                    <div class="mobile-menu">
+                        <input type="checkbox" class="hidden" name="mobile" id="mobile-menu">
+                        <label for="mobile-menu">
+                            <i class="bx bx-menu"></i>
+                            <!-- posterior criação de um box para as informações. -->
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- fim da barra superior -->
+
+        <div class="content w-100">
+            <div class="about text-dark text-center">
+                <h1 class="title-about fs-1">Quem Somos nós?</h1>
+                <p class="comment wrap fs-4">ImobiPajé é uma startup de venda, locação,
+                    aluguel de imóveis, que tem como objetivo facilitar o processo de
+                    aquisição de seu novo imóvel, através de um sistema de busca inteligente,
+                    que possibilita melhores resultados para o cliente de forma rápida e eficiente.
+                </p>
             </div>
         </div>
     </div>
-
 </body>
+
 </html>
