@@ -125,9 +125,12 @@ a{
 	cursor: pointer;
   }
   .btn-input{
+	
 	position: absolute;
   }
+
   .search-btn i{
+     cursor: pointer;
 	  position: relative;
 	 right: 5px;
   }
