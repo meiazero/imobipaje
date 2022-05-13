@@ -26,7 +26,8 @@
             <div class="menu d-flex">
                 <div class="menu-frame d-flex">
                     <div class="buy-house-option fs-2">
-                        <input type="radio" class="hidden" id="buy-house" name="option-filter" value="buy-house" checked>
+                        <input type="radio" class="hidden" id="buy-house" name="option-filter" value="buy-house"
+                            checked>
                         <label for="buy-house">Comprar</label>
                     </div>
                     <div class="to-hide-option fs-2">
@@ -35,32 +36,40 @@
                     </div>
                 </div>
                 <!-- Frame de pesquisa -->
-                <div class="search d-flex">
-                    <div class="option-search d-flex"> 
-                        <input type="radio" class="hidden" name="item-search" id="locale">
-                        <label for="locale" class="d-flex">
-                            <h1 class="option-title fs-5 text-dark">Localização</h1>
-                            <p class="option-subtitle text-dark">CEP, Cidade, Estado...</p>
-                        </label>
-                    </div>
-                    <div class="option-search d-flex">
-                        <input type="radio" class="hidden" name="item-search" id="room">
-                        <label for="room" class="d-flex">
-                            <h1 class="option-title fs-5 text-dark">Quantidade de quartos</h1>
-                            <p class="option-subtitle text-dark">1, 2, 3 quartos</p>
-                        </label>
-                    </div>
-                    <div class="option-search d-flex">
-                        <input type="radio" class="hidden" name="item-search" id="price">
-                        <label for="price" class="d-flex">
-                            <h1 class="option-title fs-5 text-dark">Faixa de Preço</h1>
-                            <p class="option-subtitle text-dark">--------------</p>
-                        </label>
-                    </div>
-                    <div class="search-btn d-flex">
-                        <button type="submit" class="btn btn-info">
-                            <img src="assets/img/bx-search.svg" alt="search buttom">
-                        </button>
+                <div class="box-search w-100 h-100">
+                    <div class="search w-80">
+                        <div class="option border-end border-3">
+                            <input type="radio" class="hidden" name="option" id="locate" value="locate">
+                            <label class="choose" for="locate">
+                                <p>Localização</p>
+                                <p class="subtitle">CEP, cidade, estado...</p>
+                            </label>
+                            <div class="map"></div>
+                        </div>
+
+                        <div class="option border-end border-3">
+                            <input type="radio" class="hidden" name="option" id="price" value="locate">
+                            <label class="choose" for="price">
+                                <p>Quartos</p>
+                                <p class="subtitle">1, 2, 3 quartos</p>
+                            </label>
+
+                        </div>
+
+                        <div class="option ">
+                            <input type="radio" class="hidden" name="option" id="room" value="locate">
+                            <label class="choose" for="room">
+                                <p>Preços</p>
+                                <p class="subtitle">----------</p>
+                            </label>
+                        </div>
+
+                        <div class="search-btn ">
+                            <input type="button" class="btn-input">
+                            <i class="bx bx-search-alt-2 fs-3 text-white"></i>
+                            </input>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -77,13 +86,13 @@
                     <div class="mobile-menu">
                         <input type="checkbox" class="hidden" name="mobile" id="mobile-menu">
                         <label for="mobile-menu">
-                            <i class="bx bx-menu"></i>
+                            <i class="bx bx-menu "></i>
                             <!-- posterior criação de um box para as informações. -->
                         </label>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
         <!-- fim da barra superior -->
 
         <div class="content w-100">
@@ -96,6 +105,7 @@
                 </p>
             </div>
         </div>
+
     </div>
 </body>
 
