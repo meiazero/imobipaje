@@ -153,7 +153,7 @@ a{
 .about{
 	width: 80%;
 	height: 100%;
-	margin: 50px auto 0 auto;
+	margin: 50px auto ;
 	background: #f3f3f3;
 	justify-content: center;
 	align-items: center;
