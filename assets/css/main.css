@@ -6,10 +6,12 @@
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;
 }
-.root{
-	width: 100vw;
-	max-width: 80%;
+body{
 	height: 100vh;
+	width: 100vw;
+}
+.root{
+	max-width: 75%;
 }
 a{
 	text-decoration: none;
@@ -18,21 +20,21 @@ a{
 .hidden{
 	display: none;
 }
+.top-menu{
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 .logo-frame{
-	width: 20%;
+	padding: 0 5px;
 }
 .logo{
-	height: 100px;
-	justify-content: flex-start;
+	width: 100%;
 	align-items: center;
-}
-.logo-text{	
-	font-size: 2rem;
 }
 .logo i{
 	position: relative;
 	top: -4px;
-	font-size: 55px;
 }
 .menu{
 	width: 80%;
@@ -69,13 +71,11 @@ a{
   }
   .option{
 	width: 200px;
-	height: 45px;
+	height: 25px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	
-	/*border-right: 2px solid #c3c3c3;*/
-  }
+ }
   .choose{
 	height: 42px;
 	width: 110px;
@@ -124,19 +124,15 @@ a{
 	color: #fff;
 	cursor: pointer;
   }
-  .btn-input{
-	
+.btn-input{
 	position: absolute;
-  }
-
-  .search-btn i{
-     cursor: pointer;
-	  position: relative;
-	 right: 5px;
-  }
+}
+.search-btn i{
+    cursor: pointer;
+	position: relative;
+	right: 5px;
+}
 .user-box{
-	width: 20%;
-	height: 100px;
 	justify-content: flex-end;
 	align-items: center;
 }
@@ -150,14 +146,26 @@ a{
 	padding: 4px 8px;
 	border-radius: 20px;
 }
-.about{
-	width: 80%;
-	height: 100%;
-	margin: 50px auto ;
-	background: #f3f3f3;
-	justify-content: center;
-	align-items: center;
+/* conteudo central */
+
+
+/* rodapé */
+.footer{
+	background: #33415C;
+	padding: 20px 0 10px 0;
+	width: 100%;
+
 }
-.comment{
-	margin: 15px 30px;
+.box-info{
+	width: 250px;
+}
+.box-info ul{
+	list-style: none;
+	padding: 10px 0;
+}
+.box-info ul li a{
+	color: #f3f3f3;
+}
+.box-info ul li a:hover{
+	color: #02c;
 }
