@@ -11,7 +11,8 @@ body{
 	width: 100vw;
 }
 .root{
-	max-width: 75%;
+	max-width: 920px;
+	margin: 0 auto;
 }
 a{
 	text-decoration: none;
@@ -26,7 +27,8 @@ a{
 	margin: 0 auto;
 }
 .logo-frame{
-	padding: 0 5px;
+	padding: 0;
+	margin-left: 5px;
 }
 .logo{
 	width: 100%;
@@ -138,13 +140,15 @@ a{
 }
 .user-box i{
 	cursor: pointer;
-	font-size: 2rem;
-	margin-top:2px;
+	/* font-size: 2rem; */
+	/* margin-top:2px; */
 	color: #000;
 }
 .user-toggle{
-	padding: 4px 8px;
-	border-radius: 20px;
+	padding: 5px 10px;
+	border-radius: 25px;
+	justify-content: center;
+	align-items: center;
 }
 /* conteudo central */
 
