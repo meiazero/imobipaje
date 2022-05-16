@@ -14,68 +14,30 @@
 
 <body class="bg-dark text-white">
     <div class="root m-auto">
-        <div class="top-menu d-flex justify-content-between ">
-            <!-- Logo Frame -->
+        <div class="top-menu d-flex justify-content-between align-items-center">
+            <!--Logo Frame-->
             <div class="logo-frame d-flex ">
                 <a href="/" class="logo d-flex text-white">
                     <i class='bx bx-home-smile fs-2'></i>
                     <h1 class="logo-text fs-4 m-0">ImobiPajé</h1>
                 </a>
             </div>
-            <!-- Menu Frame -->
-            <div class="menu d-flex m-auto align-items-center">
-                <div class="menu-frame d-flex">
-                    <div class="buy-house-option fs-2">
-                        <input type="radio" class="hidden" id="buy-house" name="option-filter" value="buy-house"
-                            checked>
-                        <label for="buy-house">Comprar</label>
+            <!--Frame de pesquisa -->
+            <div class="box-search w-50">
+                <div class="search bg-white w-80">
+                   <input type="search" class="fs-4 text-dark border-0 p-2 text-center" name="search" id="query">
+
+                    <div class="search-btn ">
+                        <input type="button" class="btn-input">
+                        <i class="bx bx-search-alt-2 fs-3 text-white"></i>
+                        </input>
                     </div>
-                    <div class="to-hide-option fs-2">
-                        <input type="radio" class="hidden" id="to-hide" name="option-filter" value="to-hide">
-                        <label for="to-hide">Alugar</label>
-                    </div>
-                </div>
-                <!-- Frame de pesquisa -->
-                <div class="box-search w-100 h-100">
-                    <div class="search w-80">
-                        <div class="option border-end border-3">
-                            <input type="radio" class="hidden" name="option" id="locate" value="locate">
-                            <label class="choose" for="locate">
-                                <p>Localização</p>
-                                <p class="subtitle">CEP, cidade, estado...</p>
-                            </label>
-                        </div>
 
-                        <div class="option border-end border-3">
-                            <input type="radio" class="hidden" name="option" id="price" value="locate">
-                            <label class="choose" for="price">
-                                <p>Quartos</p>
-                                <p class="subtitle">1, 2, 3 quartos</p>
-                            </label>
-
-                        </div>
-
-                        <div class="option ">
-                            <input type="radio" class="hidden" name="option" id="room" value="locate">
-                            <label class="choose" for="room">
-                                <p>Preços</p>
-                                <p class="subtitle">----------</p>
-                            </label>
-                        </div>
-
-                        <div class="search-btn ">
-                            <input type="button" class="btn-input">
-                            <i class="bx bx-search-alt-2 fs-3 text-white"></i>
-                            </input>
-                        </div>
-
-                    </div>
                 </div>
             </div>
-            <!-- User frame -->
+            <!--User frame -->
             <div class="user d-flex align-items-center justify-content-end ">
-                <div
-                    class="user-box w-100 rounded-pill d-flex align-items-center justify-content-center bg-white">
+                <div class="user-box w-100 rounded-pill d-flex align-items-center justify-content-center bg-white">
                     <div class="sign mt-1">
                         <a href="./public/pages/aviso.html">
                             <i class="bx bx-user fs-4"></i>
@@ -90,99 +52,103 @@
             </div>
 
         </div>
-        <!-- fim da barra superior -->
-        <!-- banner -->
-        <div class="banner d-flex m-auto mt-4">    
-        </div>
-        <!-- auto propaganda -->
-        <div class="box-ad d-flex">
-            <div class="ad-content d-flex bg-white">
-                <div class="ad-text ">
-                    <p class="text-dark fs-3 d-flex flex-column">
-                        <span>Como</span>
-                        <span>Escolher</span>
-                        <span class="d-flex">um imovél?</span>
-                    </p>
-                    <div class="link-ad">
-                        <p class="m-auto d-flex"><a href="./public/pages/aviso.html" class="text-white fs-6">Veja no nosso blog</a></p>
-                    </div>
+    </div>
+    <!--fim da barra superior -->
+
+
+    <!-- banner -->
+    <div class="banner d-flex m-auto mt-4">
+    </div>
+    <!-- auto propaganda -->
+    <div class="box-ad d-flex">
+        <div class="ad-content d-flex bg-white">
+            <div class="ad-text ">
+                <p class="text-dark fs-3 d-flex flex-column">
+                    <span>Como</span>
+                    <span>Escolher</span>
+                    <span class="d-flex">um imovél?</span>
+                </p>
+                <div class="link-ad">
+                    <p class="m-auto d-flex"><a href="./public/pages/aviso.html" class="text-white fs-6">Veja no nosso
+                            blog</a></p>
                 </div>
-                <div class="image-ad">
-                    <img src="assets/img/inside-house.jpeg" alt="inside house">
+            </div>
+            <div class="image-ad">
+                <img src="assets/img/inside-house.jpeg" alt="inside house">
+            </div>
+        </div>
+    </div>
+
+    <!-- carrossel -->
+    <div class="carrossel d-flex flex-column justify-content-center align-items-center m-auto mb-5">
+        <div class="title-cc p-2 ">
+            <h1 class="text-white fs-6">Imóveis que você pode gostar em: <span class="fw-bold">Fortaleza</span> </h1>
+        </div>
+        <div class="content-cc">
+
+            <!--box-item do carrossel -->
+            <a href="./public/pages/casa.html" class="recomendation m-2 rounded-3 bg-white">
+                <div class="image-rc ">
+                    <img src="assets/img/casa-1.png" alt="Casa 1">
                 </div>
-            </div>
+                <div class="price-rc ">
+                    <p class="text-dark fs-5 text-end fw-bold">R$ 1.000.000,00</p>
+                </div>
+                <div class="infos text-dark pt-2">
+                    <ul class="list-unstyled m-0 d-flex flex-column justify-content-center align-items-start">
+                        <li class="item-info"><i class="bx bx-map fs-4"></i>Fortaleza</li>
+                        <li class="item-info"><i class="bx bx-area fs-4"></i>720 m²</li>
+                        <li class="item-info"><i class="bx bx-bed fs-4"></i>7 quartos</li>
+                        <li class="item-info"><i class="bx bx-car fs-4"></i>3 vagas</li>
+                        <li class="item-info"><i class="bx bx-bath fs-4"></i>8 banheiros</li>
+                    </ul>
+                </div>
+            </a>
+
+
+
+            <a href="./public/pages/casa.html" class="recomendation m-2 rounded-3 bg-white">
+                <div class="image-rc">
+                    <img src="assets/img/casa-3.jpg" alt="Casa 3">
+                </div>
+                <div class="price-rc">
+                    <p class="text-dark fs-5 text-end fw-bold">R$ 720.000,00</p>
+                </div>
+                <div class="infos text-dark pt-2">
+                    <ul class="list-unstyled m-0 d-flex flex-column justify-content-center align-items-start">
+                        <li class="item-info"><i class="bx bx-map fs-4"></i>Fortaleza</li>
+                        <li class="item-info"><i class="bx bx-area fs-4"></i>883 m²</li>
+                        <li class="item-info"><i class="bx bx-bed fs-4"></i>4 quartos</li>
+                        <li class="item-info"><i class="bx bx-car fs-4"></i>2 vagas</li>
+                        <li class="item-info"><i class="bx bx-bath fs-4"></i>5 banheiros</li>
+                    </ul>
+                </div>
+            </a>
+
+
+
+            <a href="./public/pages/casa.html" class="recomendation m-2 rounded-3 bg-white">
+                <div class="image-rc ">
+                    <img src="assets/img/casa-1.png" alt="Casa 1">
+                </div>
+                <div class="price-rc ">
+                    <p class="text-dark fs-5 text-end fw-bold">R$ 1.000.000,00</p>
+                </div>
+                <div class="infos text-dark pt-2">
+                    <ul class="list-unstyled m-0 d-flex flex-column justify-content-center align-items-start">
+                        <li class="item-info"><i class="bx bx-map fs-4"></i>Fortaleza</li>
+                        <li class="item-info"><i class="bx bx-area fs-4"></i>720 m²</li>
+                        <li class="item-info"><i class="bx bx-bed fs-4"></i>7 quartos</li>
+                        <li class="item-info"><i class="bx bx-car fs-4"></i>3 vagas</li>
+                        <li class="item-info"><i class="bx bx-bath fs-4"></i>8 banheiros</li>
+                    </ul>
+                </div>
+            </a>
+
         </div>
+    </div>
 
-        <!-- carrossel -->
-        <div class="carrossel d-flex flex-column justify-content-center align-items-center">
-            <div class="title-cc p-2 ">
-                <h1 class="text-white fs-6">Imóveis que você pode gostar em: <span class="fw-bold">Fortaleza</span> </h1>
-            </div>
-            <div class="content-cc">
-
-                <!--box-item do carrossel -->
-                <a href="./public/pages/casa.html" class="recomendation m-2 rounded-3 bg-white">
-                    <div class="image-rc ">
-                        <img src="assets/img/casa-1.png" alt="Casa 1">
-                    </div>
-                    <div class="price-rc ">
-                        <p class="text-dark fs-5 text-end fw-bold">R$ 1.000.000,00</p>
-                    </div>
-                    <div class="infos text-dark pt-2">
-                        <ul class="list-unstyled m-0 d-flex flex-column justify-content-center align-items-start">
-                            <li class="item-info"><i class="bx bx-map fs-4"></i>Fortaleza</li>
-                            <li class="item-info"><i class="bx bx-area fs-4"></i>720 m²</li>
-                            <li class="item-info"><i class="bx bx-bed fs-4"></i>7 quartos</li>
-                            <li class="item-info"><i class="bx bx-car fs-4"></i>3 vagas</li>
-                            <li class="item-info"><i class="bx bx-bath fs-4"></i>8 banheiros</li>
-                        </ul>
-                    </div>
-                </a>
-
-
-
-                <a href="./public/pages/casa.html" class="recomendation m-2 rounded-3 bg-white">
-                    <div class="image-rc">
-                        <img src="assets/img/casa-3.jpg" alt="Casa 3">
-                    </div>
-                    <div class="price-rc">
-                        <p class="text-dark fs-5 text-end fw-bold">R$ 720.000,00</p>
-                    </div>
-                    <div class="infos text-dark pt-2">
-                        <ul class="list-unstyled m-0 d-flex flex-column justify-content-center align-items-start">
-                            <li class="item-info"><i class="bx bx-map fs-4"></i>Fortaleza</li>
-                            <li class="item-info"><i class="bx bx-area fs-4"></i>883 m²</li>
-                            <li class="item-info"><i class="bx bx-bed fs-4"></i>4 quartos</li>
-                            <li class="item-info"><i class="bx bx-car fs-4"></i>2 vagas</li>
-                            <li class="item-info"><i class="bx bx-bath fs-4"></i>5 banheiros</li>
-                        </ul>
-                    </div>
-                </a>
-
-                
-
-                <a href="./public/pages/casa.html" class="recomendation m-2 rounded-3 bg-white">
-                    <div class="image-rc ">
-                        <img src="assets/img/casa-1.png" alt="Casa 1">
-                    </div>
-                    <div class="price-rc ">
-                        <p class="text-dark fs-5 text-end fw-bold">R$ 1.000.000,00</p>
-                    </div>
-                    <div class="infos text-dark pt-2">
-                        <ul class="list-unstyled m-0 d-flex flex-column justify-content-center align-items-start">
-                            <li class="item-info"><i class="bx bx-map fs-4"></i>Fortaleza</li>
-                            <li class="item-info"><i class="bx bx-area fs-4"></i>720 m²</li>
-                            <li class="item-info"><i class="bx bx-bed fs-4"></i>7 quartos</li>
-                            <li class="item-info"><i class="bx bx-car fs-4"></i>3 vagas</li>
-                            <li class="item-info"><i class="bx bx-bath fs-4"></i>8 banheiros</li>
-                        </ul>
-                    </div>
-                </a>
-
-            </div>
-        </div>
-
-        <!-- rodapé -->
+    <!-- rodapé -->
     </div>
     <div class="footer d-flex flex-column">
         <div class="footer-content d-flex m-auto">

@@ -20,7 +20,7 @@ a{
 .top-menu{
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 35px auto 0 auto;
 }
 .logo-frame{
 	padding: 0;
@@ -56,13 +56,13 @@ a{
   }
   .search{
 	display: flex;
-	background: #f3f3f3;
 	height: 50px;
 	padding: 15px;
 	border-radius: 20px;
-	justify-content: space-between;
-	align-items: center;
 	margin: 0 auto;
+  }
+  .search input{
+	  outline: none;
   }
   .hidden{
 	visibility: hidden;
@@ -85,22 +85,7 @@ a{
 	border-radius: 20px;
 	
   }
-  .option:hover p{
-	  color: #000;
-	  font-weight: 600;
-  }
- .option:last-child{
-	border: 0;
-  }
-  .choose p{
-	font-size: .9rem;
-	color: rgba(0, 0, 0, .3);
-	margin: 0;
-	transition: all .2s;
-  }
-  .option .subtitle{
-	font-size: .65rem;
-  }
+
   .search-btn{
 	display: flex;
 	justify-content: flex-end;
@@ -129,10 +114,7 @@ a{
 	right: 5px;
 }
 .user-box{
-	width: 143px;
 	padding: 2px 5px;
-	justify-content: flex-end;
-	align-items: center;
 }
 .user-box i{
 	cursor: pointer;
