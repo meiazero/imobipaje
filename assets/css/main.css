@@ -68,24 +68,6 @@ a{
 	visibility: hidden;
 	display: none;
   }
-  .option{
-	/* width: 200px; */
-	height: 25px;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
- }
-  .choose{
-	height: 42px;
-	width: 110px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	margin: 0 15px;
-	border-radius: 20px;
-	
-  }
-
   .search-btn{
 	display: flex;
 	justify-content: flex-end;
@@ -113,6 +95,9 @@ a{
 	position: relative;
 	right: 5px;
 }
+.user{
+	width: 150px;
+}
 .user-box{
 	padding: 2px 5px;
 }
@@ -130,8 +115,7 @@ a{
 }
 /* conteudo central */
 .banner{
-	width: 700px;
-	height: 400px;
+	height: 470px;
 	background: #022bcc;
 	background-image: url('../img/banner.jpg');
 	background-repeat: no-repeat;
