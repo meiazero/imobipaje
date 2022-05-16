@@ -130,7 +130,7 @@ a{
 }
 .user-box{
 	width: 143px;
-	/* background: #fed; */
+	padding: 2px 5px;
 	justify-content: flex-end;
 	align-items: center;
 }
