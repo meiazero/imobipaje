@@ -3,6 +3,10 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="description" content="imobiliaria">
+    <meta name="robots" content="index">
+    <meta name="author" content="meiazero">
+    <meta name="keywords" content="imovel, casa, comprar, alugar, locacao, venda">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="assets/img/ufc.png">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
@@ -23,9 +27,9 @@
                 </a>
             </div>
             <!--Frame de pesquisa -->
-            <div class="box-search w-100 d-flex justify-content-center align-items-center">
-                <div class="search bg-white">
-                   <input type="search" class="fs-4 text-dark border-0 p-2 text-center" name="search" id="query">
+            <form class="box-search w-100 d-flex justify-content-center align-items-center" action="/public/pages/casa.html">
+                <div class="search rounded-pill bg-white">
+                   <input type="search" placeholder="Começe a digitar..." class="rounded-pill fs-5 text-dark border-0 p-2 text-center" name="search" id="query">
 
                     <div class="search-btn ">
                         <input type="button" class="btn-input">
@@ -34,7 +38,7 @@
                     </div>
 
                 </div>
-            </div>
+            </form>
             <!--User frame -->
             <div class="user d-flex align-items-center justify-content-end ">
                 <div class="user-box rounded-pill d-flex align-items-center justify-content-center bg-white">
