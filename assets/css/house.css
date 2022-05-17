@@ -15,3 +15,39 @@
     max-width: 120px;
     margin: 0 ;
 }
+.right img{
+    width: 420px;
+}
+.box-infos{
+    margin: 0;
+}
+.icon i{
+    font-weight: regular;
+}
+
+#map{
+    width: 100%;
+    height: 400px;
+}
+
+/* rodape */
+.footer{
+	background: #33415C;
+}
+.footer-content{
+	padding: 15px 0;
+	margin: 0 auto;
+}
+.box-info{
+	width: 250px;
+}
+.box-info ul{
+	list-style: none;
+	padding: 10px 0;
+}
+.box-info ul li a{
+	color: #f3f3f3;
+}
+.box-info ul li a:hover{
+	color: #02c;
+}
