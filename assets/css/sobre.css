@@ -25,6 +25,9 @@
 /* rodape */
 .footer{
 	background: #33415C;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
 .footer-content{
 	padding: 15px 0;

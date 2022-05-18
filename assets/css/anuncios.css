@@ -20,24 +20,27 @@
 
 /* content */ 
 
-.anuncio img{
-    width: 200px;
-	height: 140px;
+.image-ad img{
+    width: 270px;
 	background: #f3f3f3;
 	border-radius: 5px;
 	margin: 4px;
 }
-
 .adprice {
     justify-content: right;
 }
-
+.infos{
+	margin-left: 70px;
+}
 
 
 
 /* rodape */
 .footer{
 	background: #33415C;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
 .footer-content{
 	padding: 15px 0;
