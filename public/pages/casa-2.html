@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
-    <title>Sobre nós</title>
+    <title>Resultado: casa em fortaleza</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +10,21 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="../../assets/css/sobre.css">
+    <link rel="stylesheet" href="../../assets/css/house.css">
 </head>
 
 <body class="bg-dark">
-    <div class="root m-auto">
+    <div class="root">
         <div class="menu d-flex bg-white justify-content-center">
             <a href="/" class="logo text-decoration-none d-flex align-items-center">
                 <i class="bx bx-home-smile m-auto fs-3 text-primary"></i>
                 <h1 class="logo-text fs-4 mt-2 text-primary">ImobiPajé</h1>
             </a>
 
-            <div class="search-box w-50 d-flex align-items-center justify-content-center ">
-                <h1 class="fs-3 m-0">Sobre nós</h1>
-            </div>
+            <form action="/public/pages/"class="search-box w-50 d-flex align-items-center justify-content-center">
+                <input type="search" placeholder="Começe a pesquisar"
+                    class="fs-6 bg-dark text-white border-0 p-2 text-center rounded-pill" name="search" id="query">
+            </form>
 
             <div class="user d-flex align-items-center justify-content-end ">
                 <div
@@ -35,47 +36,70 @@
                     </div>
                     <div class="mobile-menu mt-1">
                         <a href="#">
-                            <i class="bx bx-menu text-white fs-4"></i>
+                            <i class="bx bx-menu  text-white fs-4"></i>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="content m-auto text-white ">
-            <div class="nos d-flex mt-5 ">
+        <div class="content w-100 m-auto ">
+            <div class="pro-banner mt-5 text-white d-flex m-auto">
                 <div class="right">
-                    <h1 class="fs-2">Quem somos nós:</h1>
-                    <p class=" p-3 ">
-                        A equipe da ImobiPajé é composta por 2 membros, um design
-                        chamado Zéric, e um desenvolvedor, chamado Emanuel, os dois
-                        juntos formam essa startup, que tem um intuito de facilitar
-                        a vida de quem quer comprar ou alugar uma casa, no estado do Ceará.
+                    <img src="../../assets/img/casa-3.jpg" alt="Foto 1">
+                    <p class="fs-5 mt-2">
+                        Rua Mario Montenegro, Siqueira, Fortaleza - CE
                     </p>
-                    <div class="bg-primary d-flex justify-content-center align-items-center w-50 ">
-                        <p class="d-flex justify-content-center align-items-center m-2">
-                            Esses somos nós
-                            <i class="bx bx-right-arrow-alt fs-3"></i>
-                        </p>
+                </div>
+                <div class="box-infos d-flex justify-content-center align-items-start m-auto mb-5 flex-column">
+                    <div class="icon d-flex  fs-4 m-0 justify-content-start align-items-center">
+                        <i class="bx bx-area text-primary fs-2  m-0 mb-3"></i>
+                        <p class="">883 m²</p>
+                    </div>
+                    <div class="icon d-flex fs-4 m-0  justify-content-start align-items-center">
+                        <i class="bx bx-bed text-primary fs-2  m-0 mb-3" ></i>
+                        <p class="">4 quartos</p>
+                    </div>
+                    <div class="icon d-flex fs-4  m-0 justify-content-start align-items-center">
+                        <i class="bx bx-car text-primary fs-2 m-0 mb-3"  ></i>
+                        <p class="">2 vagas</p>
+                    </div>
+                    <div class="icon d-flex  fs-4 m-0 justify-content-start align-items-center">
+                        <i class="bx bx-bath text-primary fs-2  m-0 mb-3"></i>
+                        <p class="">5 banheiros</p>
                     </div>
                 </div>
-                <div class="image-we ">
-                    <img src="../../assets/img/we.jpg" alt="we">
+                <div class="action ">
+                    <h1 class="fs-2 text-end"><span class="fs-2 fw-bold">R$ </span>720.000,00</h1>
+                    <div class="action-btn  mt-4 d-flex flex-column">
+                        <a href="#" class="btn btn-primary w-50 m-auto">Comprar</a>
+                        <a href="https://api.whatsapp.com/send?phone=85981364009&text=Gostaria+de+negociar" target="_blank" class="btn btn-warning w-50 mt-3 m-auto">Mensagem</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="parceiros mt-5"  id="parceiros">
-                <h1 class="fs-2 text-end">Empresas parceiras</h1>
-                <ul class="list-group list-group-flush align-items-end">
-                    <li class="list-group-item bg-dark text-white w-25 border-0 text-end">Empresa Tal</li>
-                    <li class="list-group-item bg-dark text-white w-25 border-0 text-end">Empresa ABC</li>
-                    <li class="list-group-item bg-dark text-white w-25 border-0 text-end">Empresa CDF</li>
-                    <li class="list-group-item bg-dark text-white w-25 border-0 text-end">Empresa FII</li>
-                </ul>
+            <div class="map p-3">
+                <div id="map"></div>
+            </div>
+
+            <div class="description text-white m-3">
+                <h1 class="fs-4">Descrição do imovél: </h1>
+                <p class="fs-5 text-secondary">
+                    Imovél me ótima localização, há três supermercados e um posto de gasolina,
+                    que se encontram a uma distancia de até 5 minutos do condominio. Além de
+                    academia, escola, biblioteca, bares e restaurantes, dentro do condominio.
+                </p>
+            </div>
+            <div class="add-info text-white m-3 mt-5 mb-5">
+                <h1 class="fs-4">Informações adicionais: </h1>
+                <p class="fs-5"><span class="fs-4 fw-bold">IPTU: R$ </span>12.000,00</p>
+                <p class="fs-5"><span class="fs-4 fw-bold">Condominio: R$ </span>2.500,00</p>
             </div>
         </div>
     </div>
-    
 
+
+
+    <!--Rodapé-->
     <div class="footer d-flex flex-column">
         <div class="footer-content d-flex m-auto">
             <div class="box-info ">
@@ -84,8 +108,8 @@
                 </div>
                 <ul class="d-flex flex-column">
                     <li><a href="./sobre.html" class="text-white text-decoration-none">Conheça Sobre a ImobiPajé</a></li>
-                    <li><a href="#locais" class="text-white text-decoration-none">Veja onde Estamos</a></li>
-                    <li><a href="#parceiros" class="text-white text-decoration-none">Empresas Parceiras</a></li>
+                    <li><a href="./sobre.html#locais" class="text-white text-decoration-none">Veja onde Estamos</a></li>
+                    <li><a href="./sobre.html#parceiros" class="text-white text-decoration-none">Empresas Parceiras</a></li>
                     <li><a href="mailto:avilaemanueel@gmail.com" title="Mandar e-mail" class="text-decoration-none">Há algo de errado?</a></li>
                 </ul>
             </div>
@@ -119,6 +143,12 @@
             </div>
         </div>
     </div>
+    <script src="../../assets/js/map.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXg9EoeQBGmRSd6g50K6juqaqj77iNnwM&callback=initMap&libraries=&v=weekly"
+        defer>
+    </script>
+
 </body>
 
 </html>
