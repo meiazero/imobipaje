@@ -17,7 +17,7 @@
 /* rodape */
 .footer{
 	background: #33415C;
-	position: relative;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
 }
