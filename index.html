@@ -27,17 +27,12 @@
                 </a>
             </div>
             <!--Frame de pesquisa -->
-            <form action="/public/pages/" class="box-search w-100 d-flex justify-content-center align-items-center" >
-                <div class="search rounded-pill bg-white">
-                   <input type="search" placeholder="Começe a digitar..." class="rounded-pill fs-5 text-dark border-0 p-2 text-center" name="search" id="query">
-
-                    <div class="search-btn ">
-                        <input type="button" class="btn-input">
-                        <i class="bx bx-search-alt-2 fs-3 text-white"></i>
-                        </input>
-                    </div>
-
-                </div>
+            <form action="/public/pages/" class="w-100 d-flex justify-content-center align-items-center">
+                   <input type="search" placeholder="Começe a digitar..." class="box-search rounded-pill fs-5 text-dark border-0 p-2 text-center" required id="query">
+                    <input class="search-btn rounded-circle btn-primary" id="search" type="submit" value=""></input>
+                    <label for="search" class="input-label d-flex justify-content-center align-items-center">
+                        <i class="bx bx-search-alt-2 fs-3"></i>
+                    </label>
             </form>
             <!--User frame -->
             <div class="user d-flex align-items-center justify-content-end ">
