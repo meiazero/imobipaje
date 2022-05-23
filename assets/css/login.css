@@ -22,15 +22,35 @@
     height: calc(100vh - 100px);
 }
 .form form{
-    width: 80%;
     height: 400px;
 }
 .input-form{
-    margin: 5px auto;
-    width: 80%;
-    padding: 5px;
+    margin: 5px 15px;
+    padding: 10px 15px;
+    width: 300px;
+    outline: none;
     background: #ccc;
 
+}
+.title-form{
+    /* text-align: center; */
+    margin: 10px 0;
+}
+.amnesia{
+    margin: 15px 0;
+}
+.amnesia a{
+    font-size: .9rem;
+    padding: 4px 0;
+    margin-right: 35px;
+}
+.no_account{
+    margin-top: 25px;
+    height: 50px;
+}
+.conta{
+    margin: 0;
+    margin-right: 2px;
 }
 /* rodape */
 .footer{

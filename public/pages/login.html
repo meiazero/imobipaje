@@ -43,20 +43,24 @@
             </div>
         </div>
     </div>
-    <div class="form m-auto d-flex justify-content-center align-items-center">
-        <form action="/" method="post" class="bg-white d-flex flex-column align-items-center justify-content-center">
-            <input type="text" placeholder="email" class="input-form rounded-pill border-0 p-2 fs-5">
-            <input type="text" placeholder="senha" class="input-form rounded-pill border-0 p-2 fs-5">
-            <div class="amesia">
-                <a href="#" target="_blank">esqueci a senha</a>
+    <div class="form m-auto d-flex justify-content-center align-items-center flex-column">
+        <div class="form-content bg-white d-flex align-items-center justify-content-center flex-column">
+            <div class="title-form">
+                <h1 class="text-center">Login</h1>
             </div>
-            <input type="submit" value="login">
-            <div class="no_account">
-                <p class="conta">
-                    ainda não tem uma conta? <a href="#">cadastre-se</a>
-                </p>
-            </div>
-        </form>
+            <form action="./aviso.html" method="post" class="d-flex flex-column align-items-center justify-content-center">
+                <input type="text" placeholder="email" class="input-form rounded-pill border-0 fs-5" required>
+                <input type="password" placeholder="senha" class="input-form rounded-pill border-0 fs-5" required>
+                <div class="amnesia w-100 text-end">
+                    <a href="#" target="_blank">esqueci a senha</a>
+                </div>
+                <input type="submit" value="login" class="btn btn-primary">
+                <div class="no_account  d-flex justify-content-center align-items-center">
+                    <p class="conta">Não tem uma conta? </p>
+                    <a href="#"> cadastre-se</a>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
