@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    width: 100%;
+    max-width: 920px;
+}
+.search-box{
+    margin: 15px 0;
+}
+.user{
+    width: 100%;
+    max-width: 120px;
+    margin: 0 ;
+}
+/* content */
+.form{
+    width: 100%;
+    max-width: 420px;
+    height: calc(100vh - 100px);
+}
+.form form{
+    width: 80%;
+    height: 400px;
+}
+.input-form{
+    margin: 5px auto;
+    width: 80%;
+    padding: 5px;
+    background: #ccc;
+
+}
+/* rodape */
+.footer{
+	background: #33415C;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+.footer-content{
+	padding: 15px 0;
+	margin: 0 auto;
+}
+.box-info{
+	width: 250px;
+}
+.box-info ul{
+	list-style: none;
+	padding: 10px 0;
+}
+.box-info ul li a{
+	color: #f3f3f3;
+}
+.box-info ul li a:hover{
+	color: #02c;
+}
